@@ -9,5 +9,7 @@ public class SeleniumMain {
 		WebDriver driver = new ChromeDriver();
 		String url = "https://www.fb.com";
 		driver.get(url);
+		
+		driver.manage().window().maximize();
 	}
 }
